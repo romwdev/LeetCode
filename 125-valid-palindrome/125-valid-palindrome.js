@@ -12,7 +12,7 @@ var isPalindrome = function(s) {
         palindromeStr += s[i].toLowerCase();
     }
     
-    if (palindromeStr === palindromeStr.split("").reverse().join("")) {
+    if (palindromeStr === palindromeStr.split('').reverse().join('')) {
         return true;
     } else return false;
 };
